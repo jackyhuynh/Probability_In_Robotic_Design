@@ -52,4 +52,16 @@ How this exponential complexity growth can really slow down the performance of t
 
 #### Cars and Probability
 Probability is used to analyze sensor data, predict future events, and make decisions. Below we will explore the foundation of probability to be a self-driving car engineer!
+
+Probability
+Now that you have built your sample space and understand the mechanics, it is time to move into some probability.
+
+Probability can typically be thought of as:
+
+\Large \frac {\textrm {Number of ways an event can occur}}{\textrm{Total number of events that could occur}} 
+Total number of events that could occur
+Number of ways an event can occur
+​	 
+
+An "event" is defined as some type of state that can happen. For example, turning "left" or "right" are both events. Similarly, pressing the "gas" or "brake" are also events. All probabilities will be between 0 and 1 inclusive.
 ​	
