@@ -1,6 +1,9 @@
 # Probability_In_Robotic_Design_Handbook
 Probability is the fundamental of the Robotic movement. As humans, we use probabilities methods to solve these Robotic movement problem in a variety of ways. 
 
+<href="" width =  >
+
+<img src="" width="200" height="400">
 ## Introduction
 ### Uncertainty in Robotics
 Using the word certain the way we'll use it in this handbook, nothing in the previous question is ever certain:
