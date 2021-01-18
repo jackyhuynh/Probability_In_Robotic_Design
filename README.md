@@ -11,3 +11,15 @@ Using the word certain the way we'll use it in this handbook, nothing in the pre
 4. What will happen when you turn the wheel: A car is an imperfect mechanical system. If you turned the steering wheel by the same amount 100 times, the car would turn a slightly different amount every time.
 As humans, we solve these problems in a variety of ways, but in this handbook, we will solve them using Python (programming languages), and probability(math)
 
+### Probabilistic "Events" in Robotics
+
+!img]()
+
+You might be wondering what coins have to do with robotics.
+- A coin flip is a perfect example of a probabilistic event: a set of outcomes to some experiment where each outcome has a probability.
+- With a coin, the outcomes are clear: heads or tails, and the probabilities are simple: 0.5 and 0.5.
+A self-driving car makes hundreds of calculations about probabilistic events every second, but the events are not as clean as a coin flip. For example:
+- What is the probability that this sensor measurement is accurate to within 5 centimeters? What about 1 centimeter?
+- What is the probability that some other vehicle will turn left at this intersection? Go straight? Turn right? What if they just sit there forever?
+- The radar and lidar measurements seem to disagree! What's the probability that the range finder somehow became detached from the roof?
+These examples are all much more interesting than "heads or tails?" but they are also less straightforward, which makes it much harder to learn probability theory from them.
