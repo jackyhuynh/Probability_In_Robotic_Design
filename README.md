@@ -25,6 +25,9 @@ A self-driving car makes hundreds of calculations about probabilistic events eve
 These examples are all much more interesting than "heads or tails?" but they are also less straightforward, which makes it much harder to learn probability theory from them.
 
 ### Two Cars
+
+![alt](https://github.com/jackyhuynh/Probability_In_Robotic_Design/blob/main/images/intersections.jpg)
+
 The following questions deal with two cars that have pulled up to an intersection. It is equally likely than any individual car will turn left (L), go straight (S), or turn right (R).
 In the notation we are using, P(S, L) means "probability that car one goes straight (S) and car two turns left (L)."
 
@@ -59,4 +62,6 @@ Probability is used to analyze sensor data, predict future events, and make deci
 - Now that you have built your sample space and understand the mechanics, it is time to move into some probability.
 - Probability can typically be thought of as: Total number of events that could occur/Number of ways an event can occur
 ​- An "event" is defined as some type of state that can happen. For example, turning "left" or "right" are both events. Similarly, pressing the "gas" or "brake" are also events. All probabilities will be between 0 and 1 inclusive.
+
+
 ​	
