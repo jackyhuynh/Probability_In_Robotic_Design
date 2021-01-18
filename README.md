@@ -13,7 +13,7 @@ As humans, we solve these problems in a variety of ways, but in this handbook, w
 
 ### Probabilistic "Events" in Robotics
 
-!img]()
+!img](https://github.com/jackyhuynh/Probability_In_Robotic_Design/blob/main/images/heads-or-tails.jpeg)
 
 You might be wondering what coins have to do with robotics.
 - A coin flip is a perfect example of a probabilistic event: a set of outcomes to some experiment where each outcome has a probability.
