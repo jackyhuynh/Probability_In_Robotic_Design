@@ -24,7 +24,7 @@ A self-driving car makes hundreds of calculations about probabilistic events eve
 - The radar and lidar measurements seem to disagree! What's the probability that the range finder somehow became detached from the roof?
 These examples are all much more interesting than "heads or tails?" but they are also less straightforward, which makes it much harder to learn probability theory from them.
 
-#### Two Cars
+### Two Cars
 The following questions deal with two cars that have pulled up to an intersection. It is equally likely than any individual car will turn left (L), go straight (S), or turn right (R).
 In the notation we are using, P(S, L) means "probability that car one goes straight (S) and car two turns left (L)."
 
@@ -34,12 +34,12 @@ P(L) = \frac{1}{3}P(L)= 1/3
 P(S) = \frac{1}{3}P(S)= 1/3	 
 P(R) = \frac{1}{3}P(R)= 1/3
 
-#### Managing Complexity
+### Managing Complexity
 Roboticists will often use the term state space to describe the set of all possible outcomes for a probabilistic event.
 For a coin the state space for a "flip" event can be written mathematically as:
-\{ \text{H}, \text{T} \}{H,T}
+- {H,T}
 And for a car at an intersection the state space for a "turn" event can be written mathematically as:
-\{ \text{L}, \text{S}, \text{R} \}{L,S,R}
+- {L,S,R}
 Coins and cars may seem differently, but we can treat them in similar ways when we think in terms of events and state spaces.
 In the last question you saw that calculating a truth table for 2 coin flips requires 4 calculations while calculating the truth table for 2 car turns at an intersection requires 9 calculations.
 We can make these statements more broadly applicable:
@@ -53,15 +53,10 @@ How this exponential complexity growth can really slow down the performance of t
 #### Cars and Probability
 Probability is used to analyze sensor data, predict future events, and make decisions. Below we will explore the foundation of probability to be a self-driving car engineer!
 
-Probability
-Now that you have built your sample space and understand the mechanics, it is time to move into some probability.
+# Definition
 
-Probability can typically be thought of as:
-
-\Large \frac {\textrm {Number of ways an event can occur}}{\textrm{Total number of events that could occur}} 
-Total number of events that could occur
-Number of ways an event can occur
-​	 
-
-An "event" is defined as some type of state that can happen. For example, turning "left" or "right" are both events. Similarly, pressing the "gas" or "brake" are also events. All probabilities will be between 0 and 1 inclusive.
+## Probability
+- Now that you have built your sample space and understand the mechanics, it is time to move into some probability.
+- Probability can typically be thought of as: Total number of events that could occur/Number of ways an event can occur
+​- An "event" is defined as some type of state that can happen. For example, turning "left" or "right" are both events. Similarly, pressing the "gas" or "brake" are also events. All probabilities will be between 0 and 1 inclusive.
 ​	
