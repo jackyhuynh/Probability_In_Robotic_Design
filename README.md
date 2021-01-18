@@ -1,7 +1,7 @@
 # Probability_In_Robotic_Design_Handbook
 Probability is the fundamental of the Robotic movement. As humans, we use probabilities methods to solve these Robotic movement problem in a variety of ways. 
 
-<img src="https://github.com/jackyhuynh/Probability_In_Robotic_Design/blob/main/images/risk-danger-dial-low.jpg" width="200" height="200">
+<img src="https://github.com/jackyhuynh/Probability_In_Robotic_Design/blob/main/images/risk-danger-dial-low.jpg" width="600" height="250">
 
 ## Introduction
 
