@@ -175,8 +175,7 @@ Notice as well that you can't really associate counts with these variables. With
 
 ![img](https://github.com/jackyhuynh/Probability_In_Robotic_Design/blob/main/images/continuous-variables.png)
 
-Thermometer, Tape Measure and Scale
-Examples of Continuous Variables
+Thermometer, Tape Measure and Scale. Examples of Continuous Variables
 
 The probability distributions for discrete variables and continuous variables are different. 
 
