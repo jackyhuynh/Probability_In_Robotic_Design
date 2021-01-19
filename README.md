@@ -71,16 +71,16 @@ Basic Python variables, for loop, if else, control flow. Small exercises about p
 
 In probability theory and statistics, Bayes' theorem (alternatively Bayes' law or Bayes' rule), named after Reverend Thomas Bayes, describes the probability of an event, based on prior knowledge of conditions that might be related to the event.[1] For example, if the risk of developing health problems is known to increase with age, Bayes' theorem allows the risk to an individual of a known age to be assessed more accurately (by conditioning it on their age) than simply assuming that the individual is typical of the population as a whole.
 
-One of the many applications of Bayes' theorem is Bayesian inference, a particular approach to statistical inference. When applied, the probabilities involved in the theorem may have different probability interpretations. With Bayesian probability interpretation, the theorem expresses how a degree of belief, expressed as a probability, should rationally change to account for the availability of related evidence. Bayesian inference is fundamental to [Bayesian statistics](https://en.wikipedia.org/wiki/Bayes'_theorem#:~:text=In%20probability%20theory%20and%20statistics,%20Bayes'%20theorem%20(alternatively,conditions%20that%20might%20be%20related%20to%20the%20event.).
+One of the many applications of Bayes' theorem is Bayesian inference, a particular approach to statistical inference. When applied, the probabilities involved in the theorem may have different probability interpretations. With Bayesian probability interpretation, the theorem expresses how a degree of belief, expressed as a probability, should rationally change to account for the availability of related evidence. Bayesian inference is fundamental to Bayesian statistics.
+[Wikipedia](https://en.wikipedia.org/wiki/Bayes'_theorem#:~:text=In%20probability%20theory%20and%20statistics,%20Bayes'%20theorem%20(alternatively,conditions%20that%20might%20be%20related%20to%20the%20event.).
 
 ### Keyworld: 
-
-​- Prior
-- Posterior
-- Normalizer (Normalizing Probabilty)
-- Total probability
-- Bayes Rules Diagram
-- Equivalent Diagram:
+Prior
+Posterior
+Normalizer (Normalizing Probabilty)
+Total probability
+Bayes Rules Diagram
+Equivalent Diagram:
 So, this should be stated as:
 P(Pos, C) = P(Pos|C) P(C)
 P(Neg, C) = P(Neg|C) P(C)
