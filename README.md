@@ -1,4 +1,5 @@
 # Probability_In_Robotic_Design_Handbook
+
 Probability is the fundamental of the Robotic movement. As humans, we use probabilities methods to solve these Robotic movement problem in a variety of ways. 
 
 <img src="https://github.com/jackyhuynh/Probability_In_Robotic_Design/blob/main/images/risk-danger-dial-low.jpg" width="400" height="200">
@@ -6,6 +7,7 @@ Probability is the fundamental of the Robotic movement. As humans, we use probab
 ## Introduction
 
 ### Uncertainty in Robotics
+
 Using the word certain the way we'll use it in this handbook, nothing in the previous question is ever certain:
 
 1. What other traffic will do: People are impossible to predict with certainty!
@@ -41,6 +43,7 @@ P(S) = \frac{1}{3}P(S)= 1/3
 P(R) = \frac{1}{3}P(R)= 1/3
 
 ### Managing Complexity
+
 Roboticists will often use the term state space to describe the set of all possible outcomes for a probabilistic event.
 For a coin the state space for a "flip" event can be written mathematically as:
 - {H,T}
@@ -57,14 +60,17 @@ And in fact, there's a mathematical pattern here that can be expressed algebraic
 How this exponential complexity growth can really slow down the performance of the code running inside of a self driving car.
 
 #### Cars and Probability
+
 Probability is used to analyze sensor data, predict future events, and make decisions. Below we will explore the foundation of probability to be a self-driving car engineer!
 
 ## Probability Definition
+
 - Now that you have built your sample space and understand the mechanics, it is time to move into some probability.
 - Probability can typically be thought of as: Total number of events that could occur/Number of ways an event can occur
 ​- An "event" is defined as some type of state that can happen. For example, turning "left" or "right" are both events. Similarly, pressing the "gas" or "brake" are also events. All probabilities will be between 0 and 1 inclusive.
 
 ## Python Basic (Notebook 1 to 10)
+
 Basic Python variables, for loop, if else, control flow. Small exercises about python variables.
 
 ## Bayes' Rule
@@ -75,6 +81,7 @@ One of the many applications of Bayes' theorem is Bayesian inference, a particul
 [Wikipedia](https://en.wikipedia.org/wiki/Bayes'_theorem#:~:text=In%20probability%20theory%20and%20statistics,%20Bayes'%20theorem%20(alternatively,conditions%20that%20might%20be%20related%20to%20the%20event.).
 
 ### Keyworld: 
+
 Prior
 Posterior
 Normalizer (Normalizing Probabilty)
@@ -88,21 +95,26 @@ So, this should be stated as:
 - P(Neg, ~C) = P(Neg|~C) P(~C)
 
 ### Robot Sensing Example
+
 #### Step by Step Walkthrough
+
 The step-by-step breakdown of the solution is pretty quick. Let's recap what's covered in the solution video.
 Let's start with what we know:
 
 #### Prior Probabilities
+
 - The robot is perfectly ignorant about where it is, so prior probabilities are as follows:
 - P(at red)=0.5
 - P(at green)=0.5
 
 #### Conditional Probabilities
+
 - The robot's sensors are not perfect. Just because the robot sees red does not mean the robot is at red.
 - P(see red∣at red)=0.8
 - P(see green∣at green)=0.8
 
 #### Posterior Probabilities:
+
 From these prior and posterior probabilities we are asked to calculate the following posterior probabilities after the robot sees red:
 - P(at red∣see red)
 - P(at green∣see red)
@@ -115,6 +127,7 @@ Now, we can read two of those terms from what we already know about our prior an
 But we still have one unknown! What was the probability that we would see red? The answer is 0.5 and there are two ways I can convince myself of that. The first is intuitive and the second is mathematical.
 
 #### Why is P(see red) 0.5?
+
 Argument 1: Intuitive
 - Of course it's 0.5! What else could it be? The robot had a 50% belief that it was in red and a 50% belief that it was in green. Sure, its sensors are unreliable but that unreliability is symmetric and not biased towards mistakenly seeing either color.
 - So whatever the probability of seeing red is, that will also be the probability of seeing green. Since these two colors are the only possible colors the probability MUST be 50% for each!
@@ -133,6 +146,7 @@ P(see red)= 0.5
 # Introduce to Probability Distribution
 
 ## What is a Probability Distribution?
+
 Probability distributions allow you to represent the probability of an event using a mathematical equation. Like any mathematical equation:
 
 - probability distributions can be visualized using a graph especially in 2-dimensional cases.
@@ -140,6 +154,7 @@ Probability distributions allow you to represent the probability of an event usi
 - These distributions make it much easier to understand and summarize the probability of a system whether that system be a coin flip experiment or the location of a self-driving car.
 
 ## Types of Probability Distributions
+
 Probability distributions are really helpful for understanding the probability of a system. Looking at the big pictures, there are two types of probability distributions:
 
 - discrete probability distributions
@@ -151,6 +166,7 @@ Probability distributions are really helpful for understanding the probability o
 # Discrete vs. Continuous Variables
 
 ## Discrete Variables
+
 As mentioned before, there are two main categories of probability distributions: discrete probability distributions and continuous probability distributions. To see the difference, let's talk about discrete variables and continuous variables.
 
 The word discrete implies that a variable can only take on certain values. Usually this ends up meaning that the variable is countable like:
@@ -167,6 +183,7 @@ You wouldn't say that a dice landed midway between 3 and 4 like 3.4. Or that the
 Of course, in a real-world experiment, the coin has some tiny tiny chance of landing on its side or the dice on an edge. But the case would still be discrete; you'd create an category like "side" or "edge" to account for those cases.
 
 ## Continuous Variables
+
 In contrast, a variable like temperature is continuous. Temperature can take on any decimal value like -5.6 or 100.41 degrees.
 
 Weight, height, temperature, longitude, and latitude are continuous variables. All of these variables could be decimal values. These variables have something else in common; you'd use some sort of instrument to measure them like a thermometer, a ruler, a scale or in the case of longitude, a chronometer.
@@ -188,6 +205,7 @@ You'll learn more about this in the next part of the lesson.
 But without knowing what "probability density function" even means, you can tell that it's more likely that the velocity is around 20 and less likely that the velocity is around 0 or 40.
 
 ## Characteristics of a Continuous Distribution
+
 Here are a few characteristics of a continuous distribution and the probability density function. Keep these in mind as you go through the next part of the lesson.
 - The y values must be greater than or equal to 0.
 - The probability of a specific x value occurring is equal to 0
