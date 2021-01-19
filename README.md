@@ -93,18 +93,18 @@ The step-by-step breakdown of the solution is pretty quick. Let's recap what's c
 Let's start with what we know:
 1. Prior Probabilities
 - The robot is perfectly ignorant about where it is, so prior probabilities are as follows:
-- P(\text{at red} ) = 0.5P(at red)=0.5
-- P(\text{at green} ) = 0.5P(at green)=0.5
+- P(at red)=0.5
+- P(at green)=0.5
 
 2. Conditional Probabilities
 - The robot's sensors are not perfect. Just because the robot sees red does not mean the robot is at red.
-- P(\text{see red} | \text{at red} ) = 0.8P(see red∣at red)=0.8
-- P(\text{see green} | \text{at green} ) = 0.8P(see green∣at green)=0.8
+- P(see red∣at red)=0.8
+- P(see green∣at green)=0.8
 
 3. Posterior Probabilities:
 From these prior and posterior probabilities we are asked to calculate the following posterior probabilities after the robot sees red:
-- P(\text{at red} | \text{see red} )P(at red∣see red)
-- P(\text{at green} | \text{see red} )P(at green∣see red)
+- P(at red∣see red)
+- P(at green∣see red)
 and as a reminder, Bayes' rule looks like this:
 - P(A|B ) = (P(B|A) * P(A))/P(A∣B)= 
 or, if we want to use our "versions" of A and B (for posterior #1)...
