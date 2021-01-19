@@ -148,10 +148,30 @@ Probability distributions are really helpful for understanding the probability o
 
 ![Img](https://github.com/jackyhuynh/Probability_In_Robotic_Design/blob/main/images/probability-distributions.jpg)
 
-# Discrete Variables
+# Discrete vs. Continuous Variables
+
+## Discrete Variables
 As mentioned before, there are two main categories of probability distributions: discrete probability distributions and continuous probability distributions. To see the difference, let's talk about discrete variables and continuous variables.
 
 The word discrete implies that a variable can only take on certain values. Usually this ends up meaning that the variable is countable like:
 
 Number of times a coin landed on heads
 How many times a dice landed on 1, 2, 3, 4 5 or 6
+
+You wouldn't say that a dice landed midway between 3 and 4 like 3.4. Or that the coin landed on heads and a half. And oftentimes these discrete variables lend themselves to counting like:
+
+How many times did the coin land on heads?
+How many times did the dice land on five?
+Of course, in a real-world experiment, the coin has some tiny tiny chance of landing on its side or the dice on an edge. But the case would still be discrete; you'd create an category like "side" or "edge" to account for those cases.
+
+Continuous Variables
+In contrast, a variable like temperature is continuous. Temperature can take on any decimal value like -5.6 or 100.41 degrees.
+
+Weight, height, temperature, longitude, and latitude are continuous variables. All of these variables could be decimal values. These variables have something else in common; you'd use some sort of instrument to measure them like a thermometer, a ruler, a scale or in the case of longitude, a chronometer.
+
+Notice as well that you can't really associate counts with these variables. With a discrete variable like coins, you could count the number of times the coin landed on heads.
+
+Thermometer, Tape Measure and Scale
+Examples of Continuous Variables
+
+The probability distributions for discrete variables and continuous variables are different. In this lesson, you are going to learn the differences and similarities between the two.
