@@ -197,6 +197,7 @@ In practice, these rules mean that the probability that velocity equals exactly 
 Because the total area under the curve is 1, there is a 100% chance that the velocity has some value between negative infinity and positive infinity.
 
 ## Uniform Continuous Distribution
+
 There are many different types of continuous distributions: link to list of continuous [probability distributions](https://en.wikipedia.org/wiki/List_of_probability_distributions#Continuous_distributions).
 But they all have the same characteristics described above. To calculate probabilities with a continuous distribution, you have to calculate the area underneath a curve. Calculating the area under a curve like in the above visualization requires calculus or a software program.
 So Sebastian has chosen to use a specific continuous distribution called the uniform continuous distribution. The uniform continuous distribution forms a rectangle. So you can calculate the area underneath the curve simply by multiplying the base by the height.
