@@ -147,3 +147,11 @@ Probability distributions are really helpful for understanding the probability o
 - Before we get into the details about what discrete and continuous mean, take a look at these two visualizations below. The first image shows a discrete probability distribution and the second a continuous probability distribution. What is similar and what is different about each visualization?
 
 ![Img](https://github.com/jackyhuynh/Probability_In_Robotic_Design/blob/main/images/probability-distributions.jpg)
+
+# Discrete Variables
+As mentioned before, there are two main categories of probability distributions: discrete probability distributions and continuous probability distributions. To see the difference, let's talk about discrete variables and continuous variables.
+
+The word discrete implies that a variable can only take on certain values. Usually this ends up meaning that the variable is countable like:
+
+Number of times a coin landed on heads
+How many times a dice landed on 1, 2, 3, 4 5 or 6
