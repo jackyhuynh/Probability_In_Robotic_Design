@@ -174,7 +174,33 @@ Weight, height, temperature, longitude, and latitude are continuous variables. A
 Notice as well that you can't really associate counts with these variables. With a discrete variable like coins, you could count the number of times the coin landed on heads.
 
 ![img](https://github.com/jackyhuynh/Probability_In_Robotic_Design/blob/main/images/continuous-variables.png)
+
 Thermometer, Tape Measure and Scale
 Examples of Continuous Variables
 
-The probability distributions for discrete variables and continuous variables are different. In this lesson, you are going to learn the differences and similarities between the two.
+The probability distributions for discrete variables and continuous variables are different. 
+
+## Continuous Probability Distributions
+
+The discrete distribution is broken up into slices. Each slice represents an outcome like zero heads, one heads, two heads, or three heads.
+The continuous distribution has an un-broken line across the entire x-axis range. You could have a velocity of 20 or 20.5 or -10.451.
+Notice the y-axis label on the continuous distribution: "probability density function". For the discrete probability distribution, the y-axis represented the probability of an event occurring. In the continuous case, the probability density function does not represent probability directly; instead, the area underneath the density function curve represents probability.
+You'll learn more about this in the next part of the lesson.
+But without knowing what "probability density function" even means, you can tell that it's more likely that the velocity is around 20 and less likely that the velocity is around 0 or 40.
+
+## Characteristics of a Continuous Distribution
+Here are a few characteristics of a continuous distribution and the probability density function. Keep these in mind as you go through the next part of the lesson.
+- The y values must be greater than or equal to 0.
+- The probability of a specific x value occurring is equal to 0
+- The probability of an event occurring between two values of x is equal to the area under the curve between those two x values.
+- The total area under the probability density function curve is equal to 1.
+In practice, these rules mean that the probability that velocity equals exactly 20 is zero. For a continuous distribution, you can only calculate a probability between a range of values like 19.99 and 20.01.
+Because the total area under the curve is 1, there is a 100% chance that the velocity has some value between negative infinity and positive infinity.
+
+## Uniform Continuous Distribution
+There are many different types of continuous distributions: link to list of continuous [probability distributions](https://en.wikipedia.org/wiki/List_of_probability_distributions#Continuous_distributions).
+But they all have the same characteristics described above. To calculate probabilities with a continuous distribution, you have to calculate the area underneath a curve. Calculating the area under a curve like in the above visualization requires calculus or a software program.
+So Sebastian has chosen to use a specific continuous distribution called the uniform continuous distribution. The uniform continuous distribution forms a rectangle. So you can calculate the area underneath the curve simply by multiplying the base by the height.
+Below is an example of a uniform continuous probability distribution. Sebastian will explain more about where this distribution comes from and how to use it.
+![img]()
+
