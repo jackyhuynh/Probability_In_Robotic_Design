@@ -82,26 +82,27 @@ Total probability
 Bayes Rules Diagram
 Equivalent Diagram:
 So, this should be stated as:
-P(Pos, C) = P(Pos|C) P(C)
-P(Neg, C) = P(Neg|C) P(C)
-P(Pos, ~C) = P(Pos|~C) P(~C)
-P(Neg, ~C) = P(Neg|~C) P(~C)
+- P(Pos, C) = P(Pos|C) P(C)
+- P(Neg, C) = P(Neg|C) P(C)
+- P(Pos, ~C) = P(Pos|~C) P(~C)
+- P(Neg, ~C) = P(Neg|~C) P(~C)
 
 ### Robot Sensing Example
 #### Step by Step Walkthrough
 The step-by-step breakdown of the solution is pretty quick. Let's recap what's covered in the solution video.
 Let's start with what we know:
-1. Prior Probabilities
+
+#### Prior Probabilities
 - The robot is perfectly ignorant about where it is, so prior probabilities are as follows:
 - P(at red)=0.5
 - P(at green)=0.5
 
-2. Conditional Probabilities
+#### Conditional Probabilities
 - The robot's sensors are not perfect. Just because the robot sees red does not mean the robot is at red.
 - P(see red∣at red)=0.8
 - P(see green∣at green)=0.8
 
-3. Posterior Probabilities:
+#### Posterior Probabilities:
 From these prior and posterior probabilities we are asked to calculate the following posterior probabilities after the robot sees red:
 - P(at red∣see red)
 - P(at green∣see red)
@@ -113,21 +114,21 @@ Now, we can read two of those terms from what we already know about our prior an
 - P(at red|see red ) = (0.8 * 0.5)/P(see red)
 But we still have one unknown! What was the probability that we would see red? The answer is 0.5 and there are two ways I can convince myself of that. The first is intuitive and the second is mathematical.
 
-- Why is P(see red) 0.5?
-- Argument 1: Intuitive
-Of course it's 0.5! What else could it be? The robot had a 50% belief that it was in red and a 50% belief that it was in green. Sure, its sensors are unreliable but that unreliability is symmetric and not biased towards mistakenly seeing either color.
-So whatever the probability of seeing red is, that will also be the probability of seeing green. Since these two colors are the only possible colors the probability MUST be 50% for each!
+#### Why is P(see red) 0.5?
+Argument 1: Intuitive
+- Of course it's 0.5! What else could it be? The robot had a 50% belief that it was in red and a 50% belief that it was in green. Sure, its sensors are unreliable but that unreliability is symmetric and not biased towards mistakenly seeing either color.
+- So whatever the probability of seeing red is, that will also be the probability of seeing green. Since these two colors are the only possible colors the probability MUST be 50% for each!
 
-- Argument 2: Mathematical (Law of Total Probability)
+Argument 2: Mathematical (Law of Total Probability)
 There are exactly two situations where the robot would see red.
 * When the robot is in a red square and its sensors work correctly.
 * When the robot is in a green square and its sensors make a mistake.
 I just need to add up these two probabilities to get the total probability of seeing red.
 P(see red) = P(at red) * P(see red|at red) + P(at green)*P(see red|at green)
 I can read these quantities from above!
-P(see red)=0.5⋅0.8+0.5⋅0.2
-P(see red)=0.4+0.1
-P(see red)=0.5
+P(see red)= 0.5 * 0.8 + 0.5 * 0.2
+P(see red)= 0.4 + 0.1
+P(see red)= 0.5
 
 # Introduce to Probability Distribution
 
