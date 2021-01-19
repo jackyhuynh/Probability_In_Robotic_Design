@@ -128,3 +128,20 @@ I can read these quantities from above!
 P(see red)=0.5⋅0.8+0.5⋅0.2
 P(see red)=0.4+0.1
 P(see red)=0.5
+
+# Introduce to Probability Distribution
+
+## What is a Probability Distribution?
+Probability distributions allow you to represent the probability of an event using a mathematical equation. Like any mathematical equation:
+
+- probability distributions can be visualized using a graph especially in 2-dimensional cases.
+- probability distributions can be worked with using algebra, linear algebra and calculus.
+- These distributions make it much easier to understand and summarize the probability of a system whether that system be a coin flip experiment or the location of a self-driving car.
+
+## Types of Probability Distributions
+Probability distributions are really helpful for understanding the probability of a system. Looking at the big pictures, there are two types of probability distributions:
+
+- discrete probability distributions
+- continuous probability distributions
+- Before we get into the details about what discrete and continuous mean, take a look at these two visualizations below. The first image shows a discrete probability distribution and the second a continuous probability distribution. What is similar and what is different about each visualization?
+
