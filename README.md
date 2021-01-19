@@ -201,5 +201,6 @@ There are many different types of continuous distributions: link to list of cont
 But they all have the same characteristics described above. To calculate probabilities with a continuous distribution, you have to calculate the area underneath a curve. Calculating the area under a curve like in the above visualization requires calculus or a software program.
 So Sebastian has chosen to use a specific continuous distribution called the uniform continuous distribution. The uniform continuous distribution forms a rectangle. So you can calculate the area underneath the curve simply by multiplying the base by the height.
 Below is an example of a uniform continuous probability distribution. Sebastian will explain more about where this distribution comes from and how to use it.
-![img]()
+
+![img](https://github.com/jackyhuynh/Probability_In_Robotic_Design/blob/main/images/uniform-continuous.png)
 
