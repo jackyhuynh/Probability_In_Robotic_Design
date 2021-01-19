@@ -146,3 +146,4 @@ Probability distributions are really helpful for understanding the probability o
 - continuous probability distributions
 - Before we get into the details about what discrete and continuous mean, take a look at these two visualizations below. The first image shows a discrete probability distribution and the second a continuous probability distribution. What is similar and what is different about each visualization?
 
+![Img](https://github.com/jackyhuynh/Probability_In_Robotic_Design/blob/main/images/probability-distributions.jpg)
