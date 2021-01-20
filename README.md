@@ -281,47 +281,16 @@ A step by step series of examples that tell you how to get a development envirom
 Explain how to run the automated tests for this system:
 - There is no download IDE need, all you need is download all the src to your machine and run it.
 - Using Jupiter Notebook
-- Navigate to the file Kahman_Filter_Implementation.ipynb
+- Navigate to the file .ipynb
 - hit:
 
 ```
 Ctrl + Enter
 ```
-- If this happen (most likely it is going to happen). I sucessful run this code in a virtual machine. However, when I download it to my computer and deploy it to GitHub, I experienced this issues.
-```
----------------------------------------------------------------------------
-ModuleNotFoundError                       Traceback (most recent call last)
-<ipython-input-8-10b645f07abd> in <module>
-      1 # Run this cell first!
-      2 
-----> 3 from helpers import Map, load_map_10, load_map_40, show_map
-      4 import math
-      5 
-
-~\python-workspace\Route_Planner\helpers.py in <module>
-      2 import networkx as nx
-      3 import pickle
-----> 4 import plotly.plotly as py
-      5 import random
-      6 from plotly.graph_objs import *
-
-ModuleNotFoundError: No module named 'plotly'
-```
-- Fixxed: If you are using Anaconda, open Anaconda Navigator and launch cmd prompt (cmd.exe) from there. Then run 'pip install plotly'.
-```
-pip install plotly
-```
-- If this not fix your issues, please do a search. Here is some good information: [GitHub](https://github.com/plotly/plotly.py/issues/1660) or [plotly](https://plotly.com/python/troubleshooting/)
-
-- The notebook will execute in Markdown form and include the visualization of the map.
-
-![alt](https://github.com/jackyhuynh/Route-Planner/blob/main/src/picture/map.PNG)
-
-- The program was working perfectly fine when I code it in the Udacity.com workspace. You may try it [here](https://classroom.udacity.com/nanodegrees/nd113/parts/ff875ac7-e7c7-40ec-8a79-8fce37d93bb2/modules/e3ba7f5e-56e5-4a40-9b21-0f7a130d3074/lessons/b1e11f40-418c-4292-af6f-56ac2603e868/concepts/498d1011-019d-4768-bd46-f476b68c2c4b) if you are member of Udacity. 
 
 ## Deployment
 
-Route PLanner class can be deploy and ready to work with any sensor, or moving robotic prediction. Idea for localization and/or GPS application. This is actually what we use for driving direction everyday. According to Sebastian, this technology have been around for 15 years, and still helping human each day.
+All the notebook can be used for research and academic basic function for Python. class can be deploy and ready to work as support function. Idea for localization and/or GPS application. This is actually what we use for driving direction everyday. According to Sebastian, this technology have been around for 35 years, and still helping human each day.
 Please refer to my notebook for a better understanding of implementation.
 
 ## Built With
