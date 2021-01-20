@@ -4,7 +4,18 @@ Probability is the fundamental of the Robotic movement. As humans, we use probab
 
 <img src="https://github.com/jackyhuynh/Probability_In_Robotic_Design/blob/main/images/risk-danger-dial-low.jpg" width="400" height="200">
 
-## Introduction
+## Programming Probability Distributions
+
+It's time to get more experience programming in Python. Probability distributions involve algebraic functions and visualizing those functions.
+
+You'll start out by making a few basic functions to calculate and visualize continuous uniform probability distributions.
+
+Then, you'll program a more complex distribution: a non-uniform discrete probability distribution.
+
+Next, you'll use those skills to explore how a self-driving car, or really any robot, might represent its location probabilities in a discrete, 1-D world. Then you'll expand into probabilities in a 2-D world. You're going to implement the 2-D world using something called a class, which is a sort of programming template. You'll learn more about classes in the exercises.
+
+Finally, you'll become familiar with a probability distribution that is especially important to self-driving cars: the normal distribution.
+
 
 ### Uncertainty in Robotics
 
@@ -223,3 +234,18 @@ Below is an example of a uniform continuous probability distribution. Sebastian 
 
 ![img](https://github.com/jackyhuynh/Probability_In_Robotic_Design/blob/main/images/uniform-continuous.png)
 
+## What Is A Density Function?
+
+For a continuous probability distribution, the y-axis represents a probability density function.
+A density function is just an equation to mathematically represent a continuous distribution. If you're familiar with calculus, the integral of the probability density function is the probability. If you're not familiar with calculus, not to worry! You do not need calculus for this section. Taking the integral is the same as calculating the area under the curve.
+It's relatively easy to calculate the area underneath a uniform continuous probability distribution. These distributions look like rectangles, so the area is the base of the rectangle times the height of the rectangle.
+
+## Piece-Wise Continuous Probability Distributions
+
+The probability distribution you just learned about sort of looks like a discrete probability distribution. But in fact, it is still a continuous distribution. It's called a piece-wise continuous distribution. If you're unfamiliar with piecewise functions, it just means that the function is divided into parts: check out this link for more examples.
+
+## How To Tell If This Is Continuous Or Discrete?
+
+Ask yourself, is my variable of interest continuous or discrete? Hour, in this case, is a continuous variable because hour can be any decimal value between 0 and 24. So this is a continuous probability distribution.
+
+You could rephrase this problem to make it discrete. If you counted how many people were born between 1am-2am, 2am-3am, 3am-4am, etc, the problem becomes discrete. You are slicing the hour variable so that it can only take on specific values ie 1, 2, 3, 4, 5, etc.
