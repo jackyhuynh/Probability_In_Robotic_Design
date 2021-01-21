@@ -1,7 +1,6 @@
 # Probability_In_Robotic_Design_Handbook
 
-Probability is the fundamental of the Robotic movement. As humans, we use probabilities methods to solve these Robotic movement problem in a variety of ways. 
-This project is the combination of Python basic (function & data structures) and math (probabilty) to solve real world problem. The src code file contain many small notebook which each will solve one probability problems.
+Probability is the fundamental of the Robotic movement. As humans, we use probability methods to solve these Robotic movement problems in a variety of ways. This project is the combination of Python basic (function & data structures) and math (probability) to solve real-world problems. The src code file contains many small notebooks which each will solve one probability problem.
 
 
 <img src="https://github.com/jackyhuynh/Probability_In_Robotic_Design/blob/main/images/risk-danger-dial-low.jpg" width="400" height="200">
