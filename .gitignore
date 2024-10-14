@@ -1,0 +1,11 @@
+.idea/
+.venv/
+answer/
+source/.ipynb_checkpoints/
+source/.jupyter/
+source/Untitled.ipynb
+.DS_Store
+resources/images/.DS_Store
+source/readme.md
+source/**/__pycache__/
+src/.ipynb_checkpoints/
