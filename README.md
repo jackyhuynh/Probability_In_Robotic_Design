@@ -1,8 +1,4 @@
-Here’s a refined version of your content to improve clarity, flow, and readability:
-
----
-
-# Probability in Robotic Design Handbook
+# Probability in Robotic Design
 
 Probability plays a fundamental role in robotic movement. As humans, we solve robotic movement problems in various ways using probability methods. This project combines **basic Python programming** (functions & data structures) and **mathematics** (probability) to solve real-world problems. The source code includes multiple Jupyter notebooks, each dedicated to solving a specific probability problem.
 
