@@ -4,7 +4,8 @@ Here’s a more polished version of your introduction to dictionaries content:
 
 # Introduction to Dictionaries (Part 2)
 
-Dictionaries are particularly useful for representing structured and related data. The example below demonstrates a more realistic "ticket" from popular ticketing software, **Jira**.
+Dictionaries are particularly useful for representing structured and related data. The example below demonstrates a more
+realistic "ticket" from popular ticketing software, **Jira**.
 
 Take a look:
 
@@ -15,29 +16,29 @@ Take a look:
 ```python
 # The structure of a Jira ticket is captured in this dictionary
 ticket = {
-    "type" : "bug",
+    "type": "bug",
     "status": "done",
     "priority": "medium",
     "resolution": "done",
-    "description" : "testing 123",
-    "attachments" : [],
+    "description": "testing 123",
+    "attachments": [],
     "people": {
-        "assignee" : None,
-        "reporter" : {
-            "name" : "Andy Brown",
+        "assignee": None,
+        "reporter": {
+            "name": "Andy Brown",
             "image": "www.example_image_url.com"
         },
-        "votes" : 0,
-        "watchers" : [
+        "votes": 0,
+        "watchers": [
             {
                 "name": "Andy Brown",
-                "image": "www.example_image_url.com"  
+                "image": "www.example_image_url.com"
             }
         ]
     },
-    "dates" : {
-        "created" : "6 days ago",
-        "updated" : "6 days ago",
+    "dates": {
+        "created": "6 days ago",
+        "updated": "6 days ago",
         "resolved": "6 days ago"
     }
 }
@@ -54,7 +55,8 @@ The keys for this dictionary are...
 dict_keys(['type', 'status', 'priority', 'resolution', 'description', 'attachments', 'people', 'dates'])
 ```
 
-The dictionary `ticket` organizes all the information about a Jira ticket, such as its type, status, priority, and the people involved.
+The dictionary `ticket` organizes all the information about a Jira ticket, such as its type, status, priority, and the
+people involved.
 
 ```python
 # Accessing the reporter's name in the dictionary
@@ -128,7 +130,9 @@ A sample ticket might look like this:
 
 ## Exercise: Finding Popular Tickets
 
-Lists and dictionaries often work together. Notice how the `people` field in the random ticket is a dictionary, containing a `watchers` key, which holds a list. For this exercise, your goal is to filter the list of 250 tickets down to only the **most popular tickets**—those with 8 or more watchers.
+Lists and dictionaries often work together. Notice how the `people` field in the random ticket is a dictionary,
+containing a `watchers` key, which holds a list. For this exercise, your goal is to filter the list of 250 tickets down
+to only the **most popular tickets**—those with 8 or more watchers.
 
 ### Task: Write a Function to Find Popular Tickets
 
@@ -142,8 +146,9 @@ def get_popular_tickets(tickets):
     for ticket in tickets:
         if len(ticket['people']['watchers']) >= 8:
             popular_tickets.append(ticket)
-            
+
     return popular_tickets
+
 
 # Filter the popular tickets
 popular = get_popular_tickets(big_tickets)
@@ -154,7 +159,7 @@ assert len(popular) > 0  # There should be at least one popular ticket
 # Ensure each popular ticket has 8 or more watchers
 for ticket in popular:
     assert len(ticket['people']['watchers']) >= 8
-    
+
 print("Nice job! Your function works correctly.")
 ```
 
@@ -181,7 +186,3 @@ def get_popular_tickets_solution(tickets):
             popular_tickets.append(ticket)
     return popular_tickets  
 ```
-
----
-
-This version improves the flow and clarity, adds some descriptive comments, and ensures that the exercises are clearly defined for learners.
